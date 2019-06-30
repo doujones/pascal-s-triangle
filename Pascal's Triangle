@@ -1,0 +1,10 @@
+function boswell(length) {
+  var will = "";
+  for (var i = 1; i <= length; i++) {
+    will+="*".repeat(i)+"\n";
+  }
+  return will;
+}
+console.log(boswell(5));
+
+I used a For Loop and I repeated the process in the console, 5 times!!!!
